@@ -137,7 +137,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 20px 0;
+  /*padding: 20px 0 */
   /*background: #fff;*/
   background: url("C:/Users/Lenovo/Downloads.jpg")no-repeat;
  /* box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);*/
@@ -297,12 +297,67 @@ margin-left: 50px; }*/
   top: 0; }
 .menupop.open {
 height: 50px;
+padding: 10px 5px 10px 17px;
+display: none;
  /*-webkit-border-radius: 50%;
   -moz-border-radius: 50%;*/
 border-radius: 50%; } 
 .open > .collapse { top: 5px !important; left: auto;
 background-color: #061838; transition: all 70ms ease-out; display: block; }
 .rotate45 { transform: rotate(45deg); } .rotate30 { }
+a {
+    /*color: #007cc3;*/
+    font-weight: 400;
+    /*-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;*/
+    transition: all 0.3s ease-in-out;
+    outline: 0;
+}
+.head-txt, .sub-head {
+    padding: 0 30px;
+}
+
+.head-txt {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 900;
+}
+.sub-head {
+    color: #fff;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+}
+h1, h2 {
+    margin: 0;
+}
+.fix-menu a, .nyn-menu a {
+    color: #fff;
+}
+.explore {
+    background: #df9926 url() no-repeat scroll -150px 65px;
+}
+.discover {
+    background: #0f9ffa url() no-repeat scroll -20px 65px;
+}
+.maximize {
+    background: #963596 url() no-repeat scroll 0 65px;
+}
+.hiddenmenu{
+  display: none;
+}
+.maximize, .discover, .explore {
+    display: none;
+    height: 100vh;
+    background-repeat: no-repeat !important;
+    /*-webkit-background-size: cover !important;*/
+    background-size: cover !important;
+    color: #fff;
+    padding-top: 25px;
+}
 
 /*--------------------------------------------------------------
 # Intro Section
@@ -412,7 +467,7 @@ background-size: 100% auto ;
   position: relative;
   /*color: #004289;*/
   color: #3F3F3F;
-  padding: 10px 15px;
+  padding: 28px 15px 20px 20px;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;

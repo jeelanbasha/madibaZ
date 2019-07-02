@@ -42,6 +42,9 @@ $('.menupop').on('click',function(){
     $('.menuItems').css('display','block');
     $('.menupop>div').css('display','none');
     $('.menupop').addClass('open');
+    $('.menupop.open').css('display','block');
+    $('.hiddenmenu').css('display','block');
+    $('.maximize, .discover, .explore').css('display','block');
   });
     
   // Smooth scroll for the navigation and links with .scrollto classes
